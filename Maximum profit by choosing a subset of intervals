@@ -2,6 +2,7 @@ class Solution {
   public:
     int maximum_profit(int n, vector<vector<int>> &intervals) {
         // Write your code here.
+        //https://practice.geeksforgeeks.org/problems/649205908e04ac00f303626fa845261318adfa8f/1
         int index;
         vector<int> toFind;
         sort(intervals.begin(),intervals.end());
